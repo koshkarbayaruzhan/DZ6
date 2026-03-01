@@ -1,4 +1,5 @@
-package Strategy;
+package org.example.strategy;
 
-public class IPaymentStrategy {
+public interface IPaymentStrategy {
+    void pay(double amount);
 }
