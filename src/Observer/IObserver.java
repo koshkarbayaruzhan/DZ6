@@ -1,4 +1,5 @@
-package Observer;
+package org.example.observer;
 
-public class IObserver {
+public interface IObserver {
+    void update(double rate);
 }
