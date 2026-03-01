@@ -1,4 +1,8 @@
-package Strategy;
+package org.example.strategy;
 
-public class CardPayment {
+public class CardPayment implements IPaymentStrategy {
+    @Override
+    public void pay(double amount) {
+        System.out.println("Оплата картой: " + amount + " ₸");
+    }
 }
